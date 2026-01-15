@@ -110,13 +110,9 @@ const CoupleIntro = () => {
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
               />
               
-              {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-pink-600/20 to-transparent"></div>
-              
-              {/* Name Badge - Always Visible on Mobile */}
+              {/* Name Badge - Visible on Hover */}
               <motion.div 
-                className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-t from-pink-600/95 to-pink-600/80 backdrop-blur-sm"
-                initial={{ opacity: 1 }}
+                className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-t from-pink-600/95 to-pink-600/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               >
                 <div className="text-center text-white">
                   <p className="font-serif text-2xl sm:text-3xl font-bold">Divya</p>
@@ -263,13 +259,9 @@ const CoupleIntro = () => {
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
               />
               
-              {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-600/20 to-transparent"></div>
-              
-              {/* Name Badge - Always Visible on Mobile */}
+              {/* Name Badge - Visible on Hover */}
               <motion.div 
-                className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-t from-purple-600/95 to-purple-600/80 backdrop-blur-sm"
-                initial={{ opacity: 1 }}
+                className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 bg-gradient-to-t from-purple-600/95 to-purple-600/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               >
                 <div className="text-center text-white">
                   <p className="font-serif text-2xl sm:text-3xl font-bold">Vijay</p>
